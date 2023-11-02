@@ -68,11 +68,6 @@ main .container-main {
     width: calc(100% / 3);
 }
 
-.info-card {
-    height: 80px;
-    background-color: aqua;
-}
-
 .heart {
     position: absolute;
     right: 0;
@@ -89,9 +84,23 @@ main .container-main {
 
 /* info carta */
 
+.info-card div:nth-child(2) {
+    font-weight: bold;
+    font-size: 20px;
+}
 
+.info-card>span {
+    display: inline-block;
+}
 
+.info-card span:first-of-type {
+    color: red;
+    font-weight: bold;
+}
 
+.info-card span+span {
+    text-decoration: line-through;
+}
 
 
 
