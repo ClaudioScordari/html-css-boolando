@@ -13,7 +13,6 @@ header {
     width: 100%;
     position: fixed;
     z-index: 1;
-    height: 80px;
     background-color: #FF6900;
 }
 
@@ -38,6 +37,10 @@ img {
 }
 
 .img-card .discount {
+    background-color: red;
+}
+
+.discount {
     background-color: red;
 }
 
@@ -69,6 +72,33 @@ footer {
 
 /* HEADER */
 
+.container-header {
+    width: 80%;
+    margin: auto;
+}
+
+.container-header section {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav+a {
+    width: 150px;
+}
+
+section div a i {
+    color: white;
+    padding: 0 10px;
+}
 
 /* MAIN */
 
@@ -81,6 +111,10 @@ main .container-main {
 
 .cards>* {
     width: calc((100% / 3) - 20px);
+}
+
+.img-card {
+    position: relative;
 }
 
 .heart {
@@ -130,6 +164,7 @@ main .container-main {
 
 /* info carta */
 
+/* Sezione immagini nascoste */
 
 
 /* FOOTER */
