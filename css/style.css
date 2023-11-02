@@ -9,6 +9,17 @@
 /* 
 GENERAL 
 */
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 80px;
+    background-color: #FF6900;
+}
+
+main {
+    padding-top: 150px;
+}
 
 img {
     width: 100%;
@@ -17,15 +28,6 @@ img {
 
 .img-card {
     position: relative;
-}
-
-.heart {
-    font-size: 40px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    background-color: white;
-    line-height: 50px;
 }
 
 .discount,
@@ -67,11 +69,6 @@ footer {
 
 /* HEADER */
 
-.container-header {
-    width: 100%;
-    height: 80px;
-    background-color: #FF6900;
-}
 
 /* MAIN */
 
@@ -82,10 +79,6 @@ main .container-main {
     margin: auto;
 }
 
-.cards {
-    margin-top: 60px;
-}
-
 .cards>* {
     width: calc((100% / 3) - 20px);
 }
@@ -93,7 +86,18 @@ main .container-main {
 .heart {
     position: absolute;
     right: 0;
-    top: 10px
+    top: 10px;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    line-height: 50px;
+}
+
+
+.heart:hover {
+    color: red
 }
 
 .heart+div {
