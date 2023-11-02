@@ -35,12 +35,34 @@ img {
     color: white;
 }
 
-.discount {
+.img-card .discount {
     background-color: red;
 }
 
 .discount+div {
     background-color: green;
+}
+
+.card6 .heart+div {
+    background-color: green;
+    color: white;
+    padding: 5px 8px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card1,
+.card2,
+.card3 {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 50px;
 }
 
 /* HEADER */
@@ -64,8 +86,8 @@ main .container-main {
     margin-top: 60px;
 }
 
-.card1 {
-    width: calc(100% / 3);
+.cards>* {
+    width: calc((100% / 3) - 20px);
 }
 
 .heart {
@@ -102,7 +124,7 @@ main .container-main {
     text-decoration: line-through;
 }
 
-
+/* info carta */
 
 
 
