@@ -167,6 +167,17 @@ main .container-main {
 
 /* Sezione immagini nascoste */
 
+.my-col .hidden-img {
+    display: none;
+}
+
+.my-col:hover .first-img {
+    display: none;
+}
+
+.my-col:hover .hidden-img {
+    display: block;
+}
 
 /* FOOTER */
 
